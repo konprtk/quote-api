@@ -1,0 +1,15 @@
+{
+  "name": "quotegenerator",
+  "version": "1.0.0",
+  "main": "quoteAPI.js",
+  "scripts": {
+    "dev": "node quoteAPI.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
