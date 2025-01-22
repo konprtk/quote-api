@@ -5,6 +5,8 @@ require('dotenv').config();
 const quotes = process.env.QUOTES;
 const PORT = process.env.PORT || 3000;
 
+app.use(express.static('public'));
+
 async function fetchAndDisplayQuote() {
   try {
     const response = await fetch(quotes);
@@ -31,6 +33,9 @@ app.get('/quote', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.sendFile('index.html');
+});
 
 app.listen(PORT, () =>
   console.log(`Quotes API running on http://localhost:${PORT}`)
