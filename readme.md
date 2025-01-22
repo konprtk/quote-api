@@ -31,8 +31,8 @@ Fetches a random quote from the collection.
 
   ```json
   {
-    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-    "author": "Albert Einstein"
+    "quote": "The entire world is a drama, and everyone is an actor. But trust me, no one’s got their lines right.",
+    "author": "Kabir"
   }
   ```
 
@@ -46,8 +46,8 @@ curl -X GET https://quotes-api-prtk.onrender.com/quote
 
 ```json
 {
-  "quote": "The unexamined life is not worth living... but the over-examined life is exhausting.",
-  "author": "Socrates"
+  "quote": "It’s not the years in your life that count. It’s the life in your years… and the coffee you drink.",
+  "author": "Swami Vivekananda"
 }
 ```
 
