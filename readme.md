@@ -5,7 +5,7 @@ Welcome to the **Quotes API**! 🎉 This API serves up random quotes to inspire,
 ## Base URL
 
 ```plaintext
-http://your-domain.com
+https://quotes-api-prtk.onrender.com
 ```
 
 ## Endpoints
@@ -38,7 +38,7 @@ Fetches a random quote from the collection.
 **Example Request:**
 
 ```bash
-curl -X GET http://your-domain.com/quote
+curl -X GET https://quotes-api-prtk.onrender.com/quote
 ```
 
 **Example Response:**
@@ -73,7 +73,7 @@ No rate limits here! 🎉 Feel free to hit the endpoint as much as you need. But
 ### JavaScript (Fetch API)
 
 ```javascript
-fetch('http://your-domain.com/quote')
+fetch('https://quotes-api-prtk.onrender.com/quote')
   .then(response => response.json())
   .then(data => {
     console.log(`${data.quote} — ${data.author}`);
@@ -86,7 +86,7 @@ fetch('http://your-domain.com/quote')
 ```python
 import requests
 
-response = requests.get('http://your-domain.com/quote')
+response = requests.get('https://quotes-api-prtk.onrender.com/quote')
 if response.status_code == 200:
     data = response.json()
     print(f"{data['quote']} — {data['author']}")
