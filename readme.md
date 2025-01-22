@@ -1,6 +1,7 @@
 # Quotes API Documentation
 
-Welcome to the **Quotes API**! 🎉 This API serves up random quotes to inspire, motivate, or just give you a chuckle. Perfect for your apps, websites, or whenever you need that extra push. 💪
+Welcome to the **Quotes API**! 🎉 This API serves up free, random quotes to inspire, motivate, or just give you a chuckle. Perfect for your apps, websites, or whenever you need that extra push. 💪
+
 
 ## Base URL
 
@@ -30,8 +31,8 @@ Fetches a random quote from the collection.
 
   ```json
   {
-    "quote": "Life is what happens when you're busy making other plans.",
-    "author": "John Lennon"
+    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein"
   }
   ```
 
@@ -45,8 +46,8 @@ curl -X GET https://quotes-api-prtk.onrender.com/quote
 
 ```json
 {
-  "quote": "The only way to do great work is to love what you do.",
-  "author": "Steve Jobs"
+  "quote": "The unexamined life is not worth living... but the over-examined life is exhausting.",
+  "author": "Socrates"
 }
 ```
 
