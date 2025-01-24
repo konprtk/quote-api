@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
+const cors = require('cors');
 
 const quotes = process.env.QUOTES;
 const PORT = process.env.PORT || 3000;
 
 // middleware
+app.use(cors());
 app.use(express.static('public'));
 
 async function fetchAndDisplayQuote() {
