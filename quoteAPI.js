@@ -5,6 +5,7 @@ require('dotenv').config();
 const quotes = process.env.QUOTES;
 const PORT = process.env.PORT || 3000;
 
+// middleware
 app.use(express.static('public'));
 
 async function fetchAndDisplayQuote() {
